@@ -1642,9 +1642,9 @@ form textarea {
   border-radius: 8px;
   border: solid 1px #ddd;
   background: #fff;
-  color: #bbb;
+  color: #bbb; /* input text color*/
   box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05),
-    0px 1px 0px 0px rgba(255, 255, 255, 0.025);
+    0px 1px 0px 0px rgba(66, 45, 45, 0.025);
   width: 100%;
 }
 
@@ -1667,7 +1667,8 @@ form .actions:last-child {
 }
 
 form ::-webkit-input-placeholder {
-  color: #555 !important;
+  color: #555 !important; /* Color of the input placeholder text */
+  font-weight: 500;
 }
 
 form :-moz-placeholder {
@@ -1825,7 +1826,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 button:active,
 .button:active {
-  background-color: #3ba8d3;
+  background-color: #686868;
   top: 1px;
 }
 
@@ -1844,8 +1845,8 @@ input[type="reset"].alt,
 button.alt,
 .button.alt {
   background-color: #444;
-  box-shadow: inset 0px 0px 0px 1px #242424,
-    inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
 }
 
 input[type="button"].alt:hover,
@@ -2192,7 +2193,7 @@ ul.actions li:first-child {
 .wrapper.style4 form select,
 .wrapper.style4 form textarea {
   border: none;
-  background: #282828;
+  background: #282828; /* Input form color*/
 }
 
 .wrapper.style4 form input[type="text"]:focus,
