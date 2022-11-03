@@ -2182,6 +2182,11 @@ ul.actions li:first-child {
   color: #fff;
 }
 
+.wrapper.style4 h2 strong {
+  font-weight: 700;
+  color: #fff;
+}
+
 .wrapper.style4 form input[type="text"],
 .wrapper.style4 form input[type="password"],
 .wrapper.style4 form select,
