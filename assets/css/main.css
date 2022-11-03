@@ -1878,7 +1878,7 @@ ul li {
 }
 
 ul li strong {
-  padding-left: 0.5em;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -2148,7 +2148,7 @@ ul.actions li:first-child {
 }
 
 .wrapper.style4 {
-  background-color: #4a9648c1;
+  background-color: #338830c1;
   color: #999;
   text-shadow: -1px -1px 0px #181818;
 }
@@ -2342,6 +2342,7 @@ body > article {
   box-shadow: -1px 0px 0px 0px rgba(255, 255, 255, 0.1);
   padding: 0 0 0 1em;
   margin: 0 0 0 1em;
+  color: #666;
 }
 
 #copyright li:first-child {
