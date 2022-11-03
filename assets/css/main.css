@@ -1877,6 +1877,11 @@ ul li {
   padding-left: 0.5em;
 }
 
+ul li strong {
+  padding-left: 0.5em;
+  font-weight: 700;
+}
+
 ol {
   list-style: decimal;
   padding-left: 1.25em;
@@ -2005,8 +2010,12 @@ ul.social li a.fa-flickr {
   background-color: #0062db;
 }
 
-ul.social li a.fa-vimeo {
-  background-color: #4c8ab0;
+ul.social li a.fa-snapchat {
+  background-color: #fffc00;
+}
+
+ul.social li a.fa-tiktok {
+  background-color: #010101;
 }
 
 ul.social li a:hover {
