@@ -210,22 +210,39 @@
         </header>
         <div class="row">
           <div class="col-12">
-            <form method="post" action="#">
+            <form method="post" action="contact.php">
               <div class="row">
                 <div class="col-12">
-                  <input type="text" name="name" id="name" placeholder="Name" />
+                  <input
+                    type="text"
+                    name="visitor_name"
+                    id="name"
+                    placeholder="Name"
+                    pattern="[A-Z\sa-z]{3,20}"
+                    required
+                  />
                 </div>
                 <div class="col-12">
                   <input
                     type="text"
-                    name="email"
+                    name="visitor_email"
                     id="email"
-                    placeholder="Email"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="email_title"
+                    id="title"
+                    placeholder="Title"
+                    required
                   />
                 </div>
                 <div class="col-12">
                   <textarea
-                    name="message"
+                    name="visitor_message"
                     id="message"
                     placeholder="Message"
                   ></textarea>
@@ -234,7 +251,12 @@
                   <ul class="actions">
                     <li><input type="submit" value="Send Message" /></li>
                     <li>
-                      <input type="reset" value="Clear Form" class="alt" />
+                      <input
+                        type="reset"
+                        value="Clear Form"
+                        class="alt"
+                        required
+                      />
                     </li>
                   </ul>
                 </div>
